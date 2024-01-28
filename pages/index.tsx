@@ -54,17 +54,15 @@ const Home: NextPage = () => {
   return (
     <div className="flex max-w-7xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
-        <title>Simple Chat App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title></title>
+        <link rel="icon" href="" />
       </Head>
 
       
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
         <h1 className="sm:text-6xl text-4xl max-w-[708px] font-bold text-slate-900">
-          Ask anything.
         </h1>
         <p className="text-slate-500 font-medium mt-4">
-          Powered by open source LLMs and Together.ai
         </p>
         <div className="max-w-xl w-full">
           <textarea
@@ -73,7 +71,7 @@ const Home: NextPage = () => {
             rows={4}
             className="w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black my-5"
             placeholder={
-              'e.g. Tell me about some cool family friendly activities.'
+              '.'
             }
           />
           {!loading && (
